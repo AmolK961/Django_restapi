@@ -1,0 +1,59 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+*/migrations/__init__.py
+
+# Database
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Static files
+/static/
+media/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm specific
+*.pyc
+*.pyo
+*.pyd
+.idea/
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Coverage reports
+coverage.xml
+*.cover
+.coverage
+.cache
+nosetests.xml
+test_*.xml
+*.log
+
+# MyPy
+.mypy_cache/
+
+# Django secret key
+secret_key.txt
+
+# Local settings
+local_settings.py
+
+# Temporary files
+*.swp
+*.bak
+*~
+.DS_Store
+Thumbs.db
